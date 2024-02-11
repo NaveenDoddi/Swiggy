@@ -395,7 +395,9 @@ html,body{
   }
   .s-icon-main{
     
-    margin-left: 130px;
+    height: 45px;
+    margin-left: 200px;
+    
   }
   
   /* .c{
@@ -1175,10 +1177,7 @@ body{
         padding: 0px 0px 0px 0px !important;
         font-size: 10px;
     }
-    .s-icon-main{
-    
-        margin-left: 0px;
-      }
+   
 }
 @media (min-width:680px) and (max-width: 980px) {
     #foodDiv{
@@ -1282,6 +1281,10 @@ body{
         height: 130px;
         width: 100px;
     }
+    .grid-container1{
+        display: none;
+    }
+    
 }
 @media screen and (max-width: 576px) {
     #foodDiv{
@@ -1420,7 +1423,16 @@ body{
         height: 80px;
         width: 70px;
     }
-    .s-icon-main{
+   
+    .app-icons{
+        display: none;
+    }
+    .app-text{
+        display: none;
+    }
+    .grid-container1{
+        display: none;
+    }.app{
         display: none;
     }
 
@@ -1491,8 +1503,16 @@ body{
         height: 400px;
     }
     
-    .s-icon-main{
+   
+    .app-icons{
         display: none;
     }
+    .app-text{
+        display: none;
+    }
+    .app{
+        display: none;
+    }
+   
 }
 
